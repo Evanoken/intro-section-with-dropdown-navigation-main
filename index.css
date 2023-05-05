@@ -1,0 +1,101 @@
+nav {
+    /* background-color: #f6ecec; */
+    color: #161414;
+    font-size: 1.2rem;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  li{
+    margin-right: 40px;
+    font-size: 30px;
+  }
+  .navright{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 40px;
+  }
+  div button{
+    /* background-color: #f6ecec; */
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+  div button:hover{
+    border:1px solid black;
+    border-radius: 20px;
+  }
+  .body{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+    .bodyleft{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 40px;
+    }
+    .bodyright{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 40px;
+    }
+    
+    .bodyleft h1{
+        font-size: 70px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    .bodyleft p{
+        font-size: 25px;
+        margin: 60px;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+    }
+    
+    img{
+        width: 500px;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+
+    li select{
+        border:none;
+        font-size: 25px;
+
+    }
+    div button.bt{
+        background-color: #f6ecec;
+        border: 1px solid black;
+        font-size: 40px;
+        cursor: pointer;
+        margin-right: 40px;
+        border-radius:20px;
+    }
+    /* @media screen and (max-width: 480px) {
+        align-self:font-stretch;
+
+    } */
